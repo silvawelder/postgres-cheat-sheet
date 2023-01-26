@@ -2,11 +2,11 @@
 
 Log in PostgreSQL host and input command bellow:
 
-sudo su postgres
+```sudo su postgres```
 
-Enten with the bellow command to access PostgreSQL command line utility:
+Enter with the bellow command to access PostgreSQL command line utility:
 
-psql
+```psql```
 
 
 
@@ -16,82 +16,82 @@ How to create a new database
 
 command:
 
-create database <database-name>;
+```create database <database-name>;```
 
 sample:
 
-create database my_database;
+```create database my_database;```
 
 How to list all databases
 
-\l
+```\l```
 
 How to use a database
 
 command:
 
-\c database-name
+```\c database-name```
 
 sample:
 
-create database my_database;
+```create database my_database;```
 
 Tables
 
 How to list all tables
 
-\dt *.*
+```\dt *.*```
 
 How to list all tables from a schema
 
 command:
 
-\dt schema_name.*
+```\dt schema_name.*```
 
 sample
 
-\dt my_schema.*
+```\dt my_schema.*```
 
 How to delete a table from a schema
 
 command:
 
-DROP TABLE <schema_name>.<table_name>;
+```DROP TABLE <schema_name>.<table_name>;```
 
 sample:
 
-DROP TABLE my_schema.table_users;
+```DROP TABLE my_schema.table_users;```
 
 How to delete all tables from a schema
 
 command:
 
-DROP SCHEMA schema_name CASCADE;
+```DROP SCHEMA schema_name CASCADE;```
 
 sample:
 
-DROP SCHEMA my_schema CASCADE;
+```DROP SCHEMA my_schema CASCADE;```
 
 Users
 How to create a new user
 
 command:
 
-create user <user-name>;
+```create user <user-name>;```
 
 sample:
 
-create user my_user;
+```create user my_user;```
 
 How to create a password to an user
 
 command:
 
-alter user my_user with encrypted password '<input-password-here>';
+```alter user my_user with encrypted password '<input-password-here>';```
 
 sample:
 
-alter user my_user with encrypted password 'p455w0rd';
+```alter user my_user with encrypted password 'p455w0rd';```
 
 Grant privileges to an user:
 
@@ -105,7 +105,7 @@ sample:
 
 Listando todos os usuários
 
-\du
+```\du```
 
 
 
