@@ -1,4 +1,6 @@
-# postgres-cheat-sLogin on PostgreSQL Host to do Administration commands
+# postgres-cheat-s
+
+Login on PostgreSQL Host to do Administration commands
 
 Log in PostgreSQL host and input command bellow:
 
