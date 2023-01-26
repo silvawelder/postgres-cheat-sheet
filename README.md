@@ -1,4 +1,4 @@
-# postgres-cheat-s
+# postgres-cheat-sheet
 
 Login on PostgreSQL Host to do Administration commands
 
