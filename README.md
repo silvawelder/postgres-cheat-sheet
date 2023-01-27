@@ -2,7 +2,7 @@
 - [Login on PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
-- [Manipulating-Database](#Manipulating-Database)
+- [Manipulating Database](#Manipulating-Database)
   * [Sub-heading](#sub-heading-1)
     + [Sub-sub-heading](#sub-sub-heading-1)
 - [Heading](#heading-2)
