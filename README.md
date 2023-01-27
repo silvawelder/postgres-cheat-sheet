@@ -2,7 +2,7 @@
 - [Login on PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
 - [Manipulating Database](#Manipulating-Database)
   * [How to create a new database](#How-to-create-a-new-database)
-  * [How to list all databases](#How-to-list-all-database)
+  * [How to list all databases](#How-to-list-all-databases)
   * [How to use a database](#How-to-use-a-database)
 - [Manipulating Tables](#Manipulating-Tables)
   * [How to list all tables](#How-to-list-all-tables)
