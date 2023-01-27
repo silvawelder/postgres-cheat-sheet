@@ -6,7 +6,10 @@
   * [How to use a database](#How-to-use-a-database)
 - [Manipulating Tables](#Manipulating-Tables)
   * [How to list all tables](#How-to-list-all-tables)
-    + [Sub-sub-heading](#sub-sub-heading-2)
+  * [How to list all tables from a schema](#How-to-list-all-tables-from-a-schema)
+  * [How to delete a table from a schema](#How-to-delete-a-table-from-a-schema)
+  * [How to delete all tables from a schema](#How-to-delete-all-tables-from-a-schema)
+
 
 
 ## Login on PostgreSQL Host to do Administration commands
@@ -54,7 +57,7 @@ sample:
 
 ```\dt *.*```
 
-How to list all tables from a schema
+### How to list all tables from a schema
 
 command:
 
@@ -64,7 +67,7 @@ sample
 
 ```\dt my_schema.*```
 
-How to delete a table from a schema
+### How to delete a table from a schema
 
 command:
 
@@ -74,7 +77,7 @@ sample:
 
 ```DROP TABLE my_schema.table_users;```
 
-How to delete all tables from a schema
+### How to delete all tables from a schema
 
 command:
 
@@ -84,7 +87,7 @@ sample:
 
 ```DROP SCHEMA my_schema CASCADE;```
 
-Users
+## Users
 How to create a new user
 
 command:
