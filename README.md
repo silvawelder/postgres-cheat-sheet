@@ -1,19 +1,11 @@
-= postgres-cheat-sheet
-:idprefix:
-:idseparator: -
-:sectlinks:
-:sectnums:
-:toc: auto
+# postgres-cheat-sheet
 
-== Login on PostgreSQL Host to do Administration commands
+## Login on PostgreSQL Host to do Administration commands
 
 1. Log in PostgreSQL host and input command bellow:
 
-+
-[source,bash]
-----
-sudo su postgres
-----
+```sudo su postgres```
+
 
 2. Enter with the bellow command to access PostgreSQL command line utility:
 
