@@ -2,9 +2,10 @@
 - [Login on PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
 - [Manipulating Database](#Manipulating-Database)
   * [How to create a new database](#How-to-create-a-new-database)
-    + [Sub-sub-heading](#sub-sub-heading-1)
-- [Heading](#heading-2)
-  * [Sub-heading](#sub-heading-2)
+  * [How to list all databases](#How-to-list-all-database)
+  * [How to use a database](#How-to-use-a-database)
+- [Manipulating Tables](#Manipulating-Tables)
+  * [How to list all tables](#How-to-list-all-tables)
     + [Sub-sub-heading](#sub-sub-heading-2)
 
 
@@ -33,11 +34,11 @@ sample:
 
 ```create database my_database;```
 
-How to list all databases
+### How to list all databases
 
 ```\l```
 
-How to use a database
+### How to use a database
 
 command:
 
@@ -47,9 +48,9 @@ sample:
 
 ```create database my_database;```
 
-Tables
+## Manipulating Tables
 
-How to list all tables
+### How to list all tables
 
 ```\dt *.*```
 
