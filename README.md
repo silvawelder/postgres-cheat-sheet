@@ -10,7 +10,16 @@
   * [How to delete a table from a schema](#How-to-delete-a-table-from-a-schema)
   * [How to delete all tables from a schema](#How-to-delete-all-tables-from-a-schema)
 
+- [Manipulating Users](#Manipulating-Tables)
+  * [How to create a new user](#How-to-create-a-new-user)
+  * [How to create a password to an user](#How-to-create-a-password-to-an-user)
+  * [Grant privileges to an user](#Grant-privileges-to-an-user)
+  * [List all users](#List-all-users)
 
+- [Manipulating connections](#Manipulating-connections)
+  * [List number of active connections and max connections](#List- number-of-active-connections-and-max-connections)
+  * [How to create a password to an user](#How-to-create-a-password-to-an-user)
+  * [Kill active connections](#Kill-active-connections)
 
 ## Login on PostgreSQL Host to do Administration commands
 
@@ -87,8 +96,8 @@ sample:
 
 ```DROP SCHEMA my_schema CASCADE;```
 
-## Users
-How to create a new user
+## Manipulating Users
+### How to create a new user
 
 command:
 
@@ -98,7 +107,7 @@ sample:
 
 ```create user my_user;```
 
-How to create a password to an user
+### How to create a password to an user
 
 command:
 
@@ -108,7 +117,7 @@ sample:
 
 ```alter user my_user with encrypted password 'p455w0rd';```
 
-Grant privileges to an user:
+### Grant privileges to an user
 
 command:
 
@@ -118,18 +127,18 @@ sample:
 
 ```grant all privileges on database my_database to my_user;```
 
-Listando todos os usuários
+### List all users
 
 ```\du```
 
 
 
-Manipulating connections
+## Manipulating connections
 
-command to list number of active connections and max connections
+### List number of active connections and max connections
 
 ```SELECT current_setting('max_connections') AS max, COUNT(*) AS total FROM pg_stat_activity;```
 
-command to kill active connections
+### Kill active connections
 
 ```SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = '<database-name>' AND pid <> pg_backend_pid();```
