@@ -30,7 +30,9 @@
 
 2. Enter with the bellow command to access PostgreSQL command line utility:
 
-```psql```
+```
+psql
+```
 
 ## Manipulating Database
 
