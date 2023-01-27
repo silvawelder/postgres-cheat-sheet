@@ -9,7 +9,11 @@
 
 1. Log in PostgreSQL host and input command bellow:
 
-```sudo su postgres```
++
+[source,bash]
+----
+sudo su postgres
+----
 
 2. Enter with the bellow command to access PostgreSQL command line utility:
 
