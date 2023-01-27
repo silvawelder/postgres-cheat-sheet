@@ -1,7 +1,14 @@
 # postgres-cheat-sheet
+- [Login-on-PostgreSQL](#Login-on-PostgreSQL-Host-to do-Administration-commands)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Manipulating-Database](#Manipulating-Database)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 
-1. [Login on PostgreSQL Host to do Administration commands](#Login on PostgreSQL Host to do Administration commands)
-2. [Manipulating Database](#Manipulating Database)
 
 ## Login on PostgreSQL Host to do Administration commands
 
