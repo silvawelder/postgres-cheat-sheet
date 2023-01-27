@@ -1,7 +1,7 @@
 # postgres-cheat-sheet
 - [Login on PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
 - [Manipulating Database](#Manipulating-Database)
-  * [How to create a new database](#How-to-create-a-new-database1)
+  * [How to create a new database](#How-to-create-a-new-database)
     + [Sub-sub-heading](#sub-sub-heading-1)
 - [Heading](#heading-2)
   * [Sub-heading](#sub-heading-2)
