@@ -1,5 +1,8 @@
 # postgres-cheat-sheet
 
+1. [Login on PostgreSQL Host to do Administration commands](#Login on PostgreSQL Host to do Administration commands)
+2. [Manipulating Database](#Manipulating Database)
+
 ## Login on PostgreSQL Host to do Administration commands
 
 1. Log in PostgreSQL host and input command bellow:
@@ -13,7 +16,7 @@
 
 
 
-Database
+## Manipulating Database
 
 How to create a new database
 
