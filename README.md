@@ -1,5 +1,5 @@
 # postgres-cheat-sheet
-- [Login-on-PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
+- [Login on PostgreSQL](#Login%201%20on%201%20PostgreSQL%201%20Host%201%20to%201%20do%201%20Administration%201%20commands)
   * [Sub-heading](#sub-heading)
     + [Sub-sub-heading](#sub-sub-heading)
 - [Manipulating-Database](#Manipulating-Database)
