@@ -184,3 +184,7 @@ SELECT current_setting('max_connections') AS max, COUNT(*) AS total FROM pg_stat
 ```
 SELECT pg_terminate_backend(pg_stat_activity.pid) FROM pg_stat_activity WHERE pg_stat_activity.datname = '<database-name>' AND pid <> pg_backend_pid();
 ```
+
+## test
+
+⚠️==Important words to test==
