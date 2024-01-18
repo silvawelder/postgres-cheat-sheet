@@ -1,5 +1,7 @@
 # postgres-cheat-sheet
-- [Login on PostgreSQL](#Login-on-PostgreSQL-Host-to-do-Administration-commands)
+- [Login on PostgreSQL](#Login-on-PostgreSQL)
+  * [Login on Localhost](#Login-on-localhost)
+  * [Login on remote host](#Login-on-remote-host)
 - [Manipulating Database](#Manipulating-Database)
   * [How to create a new database](#How-to-create-a-new-database)
   * [How to list all databases](#How-to-list-all-databases)
