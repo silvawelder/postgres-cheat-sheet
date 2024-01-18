@@ -20,7 +20,9 @@
   * [List number of active connections and max connections](#List-number-of-active-connections-and-max-connections)
   * [Kill active connections](#Kill-active-connections)
 
-## Login on PostgreSQL Host to do Administration commands
+## Login on PostgreSQL
+
+### Login on localhost
 
 1. Log in PostgreSQL host and input command bellow:
 
@@ -33,6 +35,12 @@ sudo su postgres
 
 ```
 psql
+```
+
+### Login on remote host
+
+```
+psql -U <user-name> -d <database> -p 5432 -h <hostaname or IP adress> 
 ```
 
 ## Manipulating Database
