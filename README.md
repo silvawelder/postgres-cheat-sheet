@@ -8,6 +8,7 @@
   * [How to use a database](#How-to-use-a-database)
 - [Manipulating Tables](#Manipulating-Tables)
   * [How to list all tables](#How-to-list-all-tables)
+  * [How to  list all tables in the current database](#How-to-list-all-tables-in-the-current-database)
   * [How to list all tables from a schema](#How-to-list-all-tables-from-a-schema)
   * [How to delete a table from a schema](#How-to-delete-a-table-from-a-schema)
   * [How to delete all tables from a schema](#How-to-delete-all-tables-from-a-schema)
@@ -88,7 +89,10 @@ create database my_database;
 ```
 \dt *.*
 ```
-
+### How to list all tables in the current database
+```
+\dt
+```
 ### How to list all tables from a schema
 
 command:
